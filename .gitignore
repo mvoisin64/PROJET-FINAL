@@ -1,0 +1,35 @@
+# 🚀 Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# ⚙️ Vite cache
+.vite/
+
+# 📦 Env files
+.env
+.env.*.local
+
+# 🧹 IDE & system files
+.DS_Store
+Thumbs.db
+
+# 💡 VSCode settings (facultatif si tu veux partager les settings)
+.vscode/
+
+# ⛔ Log & coverage
+*.log
+coverage/
+*.tsbuildinfo
+
+# 📦 Optional: Mac-specific
+*.swp
+*.swo
+
+# 🔍 Lint caches
+.eslintcache
+.stylelintcache
