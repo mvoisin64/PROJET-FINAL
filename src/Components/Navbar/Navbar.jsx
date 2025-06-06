@@ -10,7 +10,6 @@ export const Navbar = () => {
     const navLinks = [
         { href: "#home", label: "Home" },
         { href: "#Projects", label: "Projects" },
-        { href: "#Playlists", label: "Playlists" },
         { href: "#Instagram", label: "Instagram" }
     ]
 

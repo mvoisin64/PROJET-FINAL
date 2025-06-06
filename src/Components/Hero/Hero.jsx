@@ -16,11 +16,15 @@ function Hero() {
                 </h2>
 
                 {/* Badge */}
-                <div className='flex items-center gap-2 bg-gray-100 w-fit px-4 py-2 rounded-full hover:bg-gray-200 transition-colors'>
+                <button onClick={() => {
+                    const section = document.getElementById("AboutMe");
+                    section?.scrollIntoView({ behavior: "smooth" });
+
+                }} className='flex items-center gap-2 bg-gray-100 w-fit px-4 py-2 rounded-full hover:bg-gray-200 transition-colors'>
                     <span className='font-bold text-sm'>About me </span>
                     <FaArrowRight className="w-2 h-2" />
 
-                </div>
+                </button>
 
 
 
@@ -30,7 +34,7 @@ function Hero() {
                 <div className='relative'>
                     <img src={matal} alt="Matteo image" className="w-120 h-120 rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300" />
                 </div>
- {/* apple music */}
+                {/* apple music */}
                 <div className="w-full max-w-xl mx-auto my-8">
                     <iframe
                         title="Apple Music Playlist"
@@ -38,10 +42,16 @@ function Hero() {
                         height="450"
                         className="w-full max-w-[500px] overflow-hidden rounded-[10px] hover:scale-[1.02] transition-transform duration-300"
                         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-                        src="https://embed.music.apple.com/fr/playlist/pl.u-e98l3zpCZ6LWNX"
+                        src="https://embed.music.apple.com/fr/playlist/curated-by-marin/pl.u-76oNzgMCq26NKd"
                     />
 
                 </div>
+
+
+
+
+
+
 
 
             </div>
