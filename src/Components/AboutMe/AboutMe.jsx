@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutMe() {
   return (
-    <section id="AboutMe" className='max-w-7xl mx-auto px-4 pt-30 pb-50 '>
+    <section id="AboutMe" className='grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto px-4 pt-30 pb-160 '>
         
             <h2 className='text-3xl mb-4 text-center font-bold pb-14'>About me</h2>
         

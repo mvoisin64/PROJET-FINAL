@@ -12,3 +12,28 @@ body {
 .anthracite{
     background-color: #EAEAEA;
 }
+
+::selection {
+  background-color: pink;
+  color: black;
+}
+
+
+.scroll-indicator-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 100vh;
+  background: transparent;
+  z-index: 9999;
+}
+
+/* Barre qui grandit en hauteur */
+.scroll-indicator {
+  width: 100%;
+  background: hotpink; /* Rose */
+  height: 0%;
+  transition: height 0.2s ease-out;
+  border-radius: 4px;
+}

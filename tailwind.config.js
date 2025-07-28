@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Noto: ['"Noto"', 'sans-serif'], // ajoute ta police ici
+        Noto: ['"Noto"', 'sans-serif'], 
       },
     },
   },

@@ -16,7 +16,7 @@ export const Navbar = () => {
 
     return (
 
-        <nav className='fixed top-0 left-0 right-0 bg-emerald-400 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm' >
+        <nav className='fixed top-0 left-0 right-0 bg-white  backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm' >
             <div className='w-full container mx-auto flex items-center justify-between px-4 sm:px6 lg:px-8 md:h-20 h-16'>
               
                 {/*logo*/}
@@ -39,7 +39,7 @@ export const Navbar = () => {
                             <a key={index} href={link.href}
                                 onClick={() => setActiveLink(link.href)}
                                 className={`text-sm font-medium relative after:absolute 
-                                after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-white after:transition-all ${activeLink === link.href ? "text-white after:w-full" : "text-white after:w-0"}`}>{link.label}</a>
+                                after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-blue-600 after:transition-all ${activeLink === link.href ? "text-blue-800 after:w-full" : "text-blue-600 after:w-0"}`}>{link.label}</a>
                         ))
                     }
                 </div>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                                         setIsMenuOpen(false)
                                     }
                                     }
-                                    className={`block text-sm font-medium py-2 ${activeLink === link.href ? "text-emerald-300" : "text-black"}`} href={link.href}
+                                    className={`block text-sm font-medium py-2 ${activeLink === link.href ? "text-blue-600" : "text-black"}`} href={link.href}
                                 >{link.label}</a>
                             ))
                             }
