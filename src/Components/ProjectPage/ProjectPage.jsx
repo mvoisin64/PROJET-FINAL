@@ -6,7 +6,7 @@ import { projects } from './../../data/projects';
 function ProjectPage() {
     let id = useParams().id
     let project = null
-    console.log(id)
+
 
     projects.forEach(Project => {
         if (Project.id == id) {
@@ -16,7 +16,6 @@ function ProjectPage() {
 
     }
     )
-    console.log(project)
 
     if (project === null) {
         return <Navigate to={"/ce-chemin-nexiste-pas"} />
