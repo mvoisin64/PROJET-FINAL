@@ -34,7 +34,18 @@ function ProjectPage() {
                 </div>
                 <div>
                     <h2 className='text-1xl mb-4 text-center font-bold pb-14'>{project.description}</h2>
-                    <p className='text-pink-300 text-center font-bold'>{project.technologies}</p>
+                    <p className='text-pink-300 text-center font-bold pb-14'>{project.technologies}</p>
+                    <p className='text-center font-bold'><a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700"
+                    >
+                        View on GitHub
+                    </a></p>
+
+
+
                 </div>
 
 
