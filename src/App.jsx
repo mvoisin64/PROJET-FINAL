@@ -7,12 +7,11 @@ import {Routes, Route } from "react-router";
 
 function App() {
   return (
-
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ProjectPage/:id" element={<ProjectPage />} />
         <Route path="*" element={<NotFound />} /> {/* Catch-all for undefined routes */}
-
+      </Routes>
   )
 }
 
