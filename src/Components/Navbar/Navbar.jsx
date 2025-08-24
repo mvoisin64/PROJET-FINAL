@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import { href } from 'react-router'
 import { HiMenu, HiX } from 'react-icons/hi'
 
 export const Navbar = () => {
@@ -8,9 +7,9 @@ export const Navbar = () => {
     const [activeLink, setActiveLink] = useState('#home')
 
     const navLinks = [
-        { href: "#home", label: "Home" },
-        { href: "#Projects", label: "Projects" },
-        { href: "#Instagram", label: "Instagram" }
+        // { href: "#home", label: "home" },
+        // { href: "#projects", label: "projects" },
+        { href: "#instagram", label: "instagram" }
     ]
 
 
