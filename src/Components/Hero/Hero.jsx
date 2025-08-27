@@ -35,7 +35,7 @@ function Hero() {
                     <img src={matal} alt="Matteo image" className="w-120 h-120 rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300" />
                 </div>
                 {/* apple music */}
-                <div className="w-full max-w-xl mx-auto my-8">
+                {/* <div className="w-full max-w-xl mx-auto my-8">
                     <iframe
                         title="Apple Music Playlist"
                         allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
@@ -45,7 +45,7 @@ function Hero() {
                         src="https://embed.music.apple.com/fr/playlist/curated-by-marin/pl.u-76oNzgMCq26NKd"
                     />
 
-                </div>
+                </div> */}
 
 
 
